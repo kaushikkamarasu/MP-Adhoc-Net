@@ -4,5 +4,7 @@
 
 !nested-subdir/
 !subdir/
-!scratch-simulator.cc
 !CMakeLists.txt
+
+# This will ensure all current and future .cc files are tracked
+!*.cc
